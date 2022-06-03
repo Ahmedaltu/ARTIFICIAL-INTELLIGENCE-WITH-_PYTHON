@@ -30,3 +30,6 @@ def my_join(lst, sep):
 sentence = str(input("Please enter sentence: "))
 print(my_join(my_split(sentence, ' '), ','))
 print(my_join(my_split(sentence, ' '), '\n'))
+
+
+
