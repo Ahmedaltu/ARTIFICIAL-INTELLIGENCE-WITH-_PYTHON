@@ -19,17 +19,11 @@ def my_join(lst, sep):
     str = ''
 
     for item in lst:
-        if item == lst[len(lst)-1]:
-            str = str + item
-        else:
-            str = str + item + sep
-
+        str = str + item + sep
+    str = str[:-1]
     return str
 
 
 sentence = str(input("Please enter sentence: "))
 print(my_join(my_split(sentence, ' '), ','))
 print(my_join(my_split(sentence, ' '), '\n'))
-
-
-
