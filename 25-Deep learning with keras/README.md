@@ -2,7 +2,8 @@
 
 -----------------------------------
 tf.keras.activations.relu 
-The function returns 0 if it receives any negative input, but for any positive value x it returns that value back. >> https://www.tensorflow.org/api_docs/python/tf/keras/activations/relu.  
+The function returns 0 if it receives any negative input, but for any positive value x it returns that value back.   
+>> https://www.tensorflow.org/api_docs/python/tf/keras/activations/relu.  
 
 
 
